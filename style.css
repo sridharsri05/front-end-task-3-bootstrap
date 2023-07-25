@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+:root {
+  --darkgreen: #0a3823;
+  --lightgreen: #198050;
+  --lightgreen-2: #0fd354;
+  --white: #fff;
+  --light: #dfebe4;
+  --Darkblue: #16113a;
+  --fontfamily: "Galano Grotesque Alt", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.Banner {
+  background-color: var(--Darkblue);
+}
+.d-flex .btn {
+  text-decoration: none;
+  padding: 8px 9px;
+  font-size: 18px;
+  color: var(--Darkblue);
+  font-weight: 700 !important;
+  width: 8rem;
+  border-radius: 2rem;
+  transition: color 0.15s ease-out, background-color.15s ease-out;
+}
+.btn:hover {
+  background-color: #94f094d3 !important;
+}
+.app-login-link {
+  color: #e9e7f9;
+  padding: 0px 0px 2px;
+  font-size: 18px;
+  font-family: var(--fontfamily);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.app-login-link:hover {
+  color: #0fd354;
+}
+.offcanvas-body .nav-link {
+  color: #e9e7f9;
+  font-family: var(--fontfamily);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.offcanvas-body .nav-link:hover {
+  color: #0fd354;
+}
+.carousel-item > img {
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 991px) {
+  .Sidebar {
+    background-color: var(--Darkblue) !important;
+    backdrop-filter: blur(10px) !important;
+  }
+}
+/* cards */
+.slide_content {
+  height: 350px;
+}
+.rome_Img {
+  margin-left: 200px;
+}
+.tourism_list {
+  background-color: rgb(220, 220, 220);
+  height: 800px;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  height: 500px;
+}
+
+.form_container {
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 30%;
+}
+.btn-primary:hover {
+  background-color: #0fd354 !important;
+}
+/* Cards-2 */
+
+html,
+body {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.fostrap-logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+}
+.card {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.25s;
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-card {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: block;
+  overflow: hidden;
+}
+.img-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.25s ease;
+}
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+.card-title {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+.card-read-more {
+  border-top: 1px solid #d4d4d4;
+}
+.card-read-more a {
+  text-decoration: none !important;
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
